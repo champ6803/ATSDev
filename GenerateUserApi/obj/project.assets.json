@@ -5507,7 +5507,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "3lmJj8caP/42kxUZsa+KX9FvLM6HGWPSeANDfCuJIVaPm8XUxUva7J/2SSZBC/n24KAqzTRYKt+J5TW63WO/WA==",
+      "sha512": "iWcLR7GuZExynJe+xORPyfbu4E6ajLZLz1SiHeNLuLkzVYEIHe7fjpakM5aCNBOIdVgw9T+WXTgCwSXwpr0QCQ==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "files": [
@@ -8713,7 +8713,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "+ccQ9Zx0Vu6tQ91Dvf/Hm8w8dBIxhJQsJqgsVCo/3Y3aAUO6D3vLf08KUpwo5LWP5yu3ywOKwZcE2jn15qXNWg==",
+      "sha512": "wlyZPt+5H3qQdBYKmE34DY60s+7//7rusF3YqBMiwIXpjpZ/68RMAo39AHOWBjeJTrf92V9zNgMX15Ga7dZLlA==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -11500,28 +11500,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\jida\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\ATSDev\\generateuserapi\\GenerateUserApi.csproj",
+      "projectUniqueName": "D:\\G-ABLE\\Project\\ATSDev\\generateuserapi\\GenerateUserApi.csproj",
       "projectName": "GenerateUserApi",
-      "projectPath": "D:\\Workspace\\ATSDev\\generateuserapi\\GenerateUserApi.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\ATSDev\\generateuserapi\\obj\\",
+      "projectPath": "D:\\G-ABLE\\Project\\ATSDev\\generateuserapi\\GenerateUserApi.csproj",
+      "packagesPath": "C:\\Users\\jida\\.nuget\\packages\\",
+      "outputPath": "D:\\G-ABLE\\Project\\ATSDev\\generateuserapi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
