@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Workspace\ATSDev\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.deps.json
 D:\Workspace\ATSDev\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.runtimeconfig.json
 D:\Workspace\ATSDev\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.runtimeconfig.dev.json
@@ -12,3 +13,19 @@ D:\Workspace\ATSDev\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.Asse
 D:\Workspace\ATSDev\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.RazorTargetAssemblyInfo.cache
 D:\Workspace\ATSDev\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.dll
 D:\Workspace\ATSDev\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.pdb
+=======
+D:\G-ABLE\Project\ATSDev\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.deps.json
+D:\G-ABLE\Project\ATSDev\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.runtimeconfig.json
+D:\G-ABLE\Project\ATSDev\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.runtimeconfig.dev.json
+D:\G-ABLE\Project\ATSDev\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.dll
+D:\G-ABLE\Project\ATSDev\GenerateUserApi\bin\Debug\netcoreapp2.1\GenerateUserApi.pdb
+D:\G-ABLE\Project\ATSDev\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.csprojAssemblyReference.cache
+D:\G-ABLE\Project\ATSDev\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.csproj.CoreCompileInputs.cache
+D:\G-ABLE\Project\ATSDev\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.RazorAssemblyInfo.cache
+D:\G-ABLE\Project\ATSDev\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.RazorAssemblyInfo.cs
+D:\G-ABLE\Project\ATSDev\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.AssemblyInfoInputs.cache
+D:\G-ABLE\Project\ATSDev\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.AssemblyInfo.cs
+D:\G-ABLE\Project\ATSDev\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.RazorTargetAssemblyInfo.cache
+D:\G-ABLE\Project\ATSDev\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.dll
+D:\G-ABLE\Project\ATSDev\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.pdb
+>>>>>>> ff20ecacfab0e6ce10d7f25541fa4ae1f215cfe1

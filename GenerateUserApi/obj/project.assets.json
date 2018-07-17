@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\ATSDev\\GenerateUserApi\\GenerateUserApi.csproj",
+      "projectUniqueName": "D:\\Workspace\\ATSDev\\generateuserapi\\GenerateUserApi.csproj",
       "projectName": "GenerateUserApi",
-      "projectPath": "D:\\Workspace\\ATSDev\\GenerateUserApi\\GenerateUserApi.csproj",
+      "projectPath": "D:\\Workspace\\ATSDev\\generateuserapi\\GenerateUserApi.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\ATSDev\\GenerateUserApi\\obj\\",
+      "outputPath": "D:\\Workspace\\ATSDev\\generateuserapi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
