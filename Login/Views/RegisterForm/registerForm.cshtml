@@ -1,0 +1,23 @@
+
+<div ng-controller="RegisterFormController">
+    <div class="container">
+        <h3>ข้อมูล outsource</h3>
+    <div class="form-group">
+        <label >Email address</label>
+        <input type="text" class="form-control" ng-model="registerForm.email" id="" placeholder="Email">
+    </div>
+    <div class="form-group">
+        <label for="">Fullname</label>
+        <input type="text" class="form-control" ng-model="registerForm.fullname" placeholder="Fullname">
+    </div>
+    <div class="form-group">
+        <label for="">Skill</label>
+        <input type="text" class="form-control" ng-model="registerForm.skill" placeholder="Skill">
+    </div>     
+    <button  class="btn btn-default" ng-click="sendData(registerForm)">ส่งข้อมูล</button>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/registerFormController.js"></script>
+}
