@@ -22,16 +22,16 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "GenerateUserApi/1.0.0": {
+      "Login/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0"
         },
         "runtime": {
-          "GenerateUserApi.dll": {}
+          "Login.dll": {}
         },
         "compile": {
-          "GenerateUserApi.dll": {}
+          "Login.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.1.0": {
@@ -3151,7 +3151,7 @@
     }
   },
   "libraries": {
-    "GenerateUserApi/1.0.0": {
+    "Login/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
