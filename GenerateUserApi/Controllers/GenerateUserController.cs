@@ -20,12 +20,13 @@ namespace GenerateUserApi.Controllers
             return new string[] { "value1", "value2" };
         }
 
+        /*Generate for login application */
         // GET api/GenerateUser/jida@gmail.com
         [HttpGet("{user}")]
         public UserModel Get(string user)
         {
             var genUser = genHelp.GenerateUser(user);
-            return genUser;
+            return genUser; 
         }
 
         // POST api/values
