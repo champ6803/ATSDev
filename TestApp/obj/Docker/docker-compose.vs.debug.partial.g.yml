@@ -9,8 +9,8 @@ services:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_testapp$
     volumes:
-      - D:\G-ABLE\Project\ATSDev\TestApp\TestApp:/app
-      - C:\Users\jida\vsdbg\vs2017u5:/remote_debugger:ro
+      - D:\Workspace\ATSDev\TestApp\TestApp:/app
+      - C:\Users\Admin\vsdbg\vs2017u5:/remote_debugger:ro
 #$nuget_volume_mapping_testapp$
     entrypoint: tail -f /dev/null
     labels:

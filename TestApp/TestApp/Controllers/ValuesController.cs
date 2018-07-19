@@ -33,6 +33,13 @@ namespace TestApp.Controllers
             return await cs.All();
         }
 
+        [HttpGet("{id}")]
+        public async Task<User> Get(string id)
+        {
+            DataAccess cs = new DataAccess();
+            return await cs.Get(id);
+        }
+
         // GET api/values/5
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)

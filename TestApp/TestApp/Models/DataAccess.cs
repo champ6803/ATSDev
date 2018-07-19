@@ -24,5 +24,11 @@ namespace TestApp.Models
             var list = await this.col.Find(new BsonDocument()).ToListAsync();
             return list;
         }
+
+        public async Task<User> Get(string id)
+        {
+            var us = await this.col.Find(x => x.id == id).FirstAsync();
+            return us;
+        }
     }
 }
