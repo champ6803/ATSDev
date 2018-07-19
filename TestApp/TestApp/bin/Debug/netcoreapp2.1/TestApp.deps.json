@@ -22,17 +22,17 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "GenerateUserApi/1.0.0": {
+      "TestApp/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
           "MongoDB.Driver": "2.7.0"
         },
         "runtime": {
-          "GenerateUserApi.dll": {}
+          "TestApp.dll": {}
         },
         "compile": {
-          "GenerateUserApi.dll": {}
+          "TestApp.dll": {}
         }
       },
       "DnsClient/1.0.7": {
@@ -3517,7 +3517,7 @@
     }
   },
   "libraries": {
-    "GenerateUserApi/1.0.0": {
+    "TestApp/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

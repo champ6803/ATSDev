@@ -8,7 +8,7 @@ namespace GenerateUserApi.Helper
 {
     public class GenerateUserHelper
     {
-        public UserModel GenerateUser(string email)
+        public User GenerateUser(string email)
         {
             return new GenerateUserLibrary().GenerateUserPass(email);
         }

@@ -27,16 +27,16 @@ namespace GenerateUserApi.Libraries
             return new string(Enumerable.Repeat(chars, 8).Select(s => s[random.Next(s.Length)]).ToArray());
         }
 
-        public UserModel GenerateUserPass(string email)
+        public User GenerateUserPass(string email)
         { 
             string Username = email;
             string Password = GeneratePassword();
 
-            UserModel user = new UserModel();
-            user.username = Username;
-            user.password = Password;
+            //UserModel user = new UserModel();
+            //user.username = Username;
+            //user.password = Password;
 
-            return user;
+            return new User();
         }
     }
 }

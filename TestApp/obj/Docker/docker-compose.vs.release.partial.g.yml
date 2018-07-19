@@ -3,7 +3,7 @@ version: '3.4'
 services:
   testapp:
     volumes:
-      - C:\Users\Admin\vsdbg\vs2017u5:/remote_debugger:ro
+      - C:\Users\jida\vsdbg\vs2017u5:/remote_debugger:ro
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"

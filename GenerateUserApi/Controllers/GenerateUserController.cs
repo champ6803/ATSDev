@@ -13,20 +13,29 @@ namespace GenerateUserApi.Controllers
     public class GenerateUserController : ControllerBase
     {
         protected GenerateUserHelper genHelp = new GenerateUserHelper();
-        // GET api/values
+        // GET api/generateuser
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public async Task<IEnumerable<User>> Get()
         {
-            return new string[] { "value1", "value2" };
+            DataAccess cs = new DataAccess();
+            return await cs.All();
+        }
+
+        // GET api/GenerateUser/admin@gmail.com
+        [HttpGet("{email}")]
+        public async Task<User> GetUser(string email)
+        {
+            DataAccess cs = new DataAccess();
+            return await cs.Get(email);
         }
 
         /*Generate for login application */
         // GET api/GenerateUser/jida@gmail.com
         [HttpGet("{user}")]
-        public UserModel Get(string user)
+        public User Get(string user)
         {
             var genUser = genHelp.GenerateUser(user);
-            return genUser; 
+            return genUser;
         }
 
         // POST api/values
