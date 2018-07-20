@@ -102,3 +102,8 @@ C:\Project\ATSDev\Login\obj\Debug\netcoreapp2.1\Login.dll
 C:\Project\ATSDev\Login\obj\Debug\netcoreapp2.1\Login.pdb
 C:\Project\ATSDev\Login\obj\Debug\netcoreapp2.1\Login.csproj.CopyComplete
 >>>>>>> c9be5945ea85441aae9e2666bca6a0ac8b6c0ca0
+C:\Project\ATSDev\login\obj\Debug\netcoreapp2.1\Razor\Views\EmployeeForm\employeeForm.g.cshtml.cs
+C:\Project\ATSDev\login\obj\Debug\netcoreapp2.1\Razor\Views\LoginForm\loginForm.g.cshtml.cs
+C:\Project\ATSDev\login\obj\Debug\netcoreapp2.1\Razor\Views\RegisterForm\registerForm.g.cshtml.cs
+C:\Project\ATSDev\login\obj\Debug\netcoreapp2.1\Razor\Views\ShowEmployee\showEmployee.g.cshtml.cs
+C:\Project\ATSDev\login\obj\Debug\netcoreapp2.1\Razor\Views\TestForm\testForm.g.cshtml.cs
