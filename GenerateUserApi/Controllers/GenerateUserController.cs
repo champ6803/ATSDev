@@ -16,7 +16,7 @@ namespace GenerateUserApi.Controllers
         protected GenerateUserHelper genHelp = new GenerateUserHelper();
         // GET api/generateuser
         [HttpGet]
-        [EnableCors("AllowSpecificOrigin")]
+        //[EnableCors("AllowSpecificOrigin")]
         public async Task<IEnumerable<Profile>> Get()
         {
             var all = genHelp.GetAll();

@@ -26,10 +26,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
-<<<<<<< HEAD
-=======
           "MongoDB.Driver": "2.7.0",
->>>>>>> a94ab672c38a18ee755029b2e1caed40d53f4623
           "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
@@ -2629,9 +2626,6 @@
         "compileOnly": true
       },
       "System.Collections.Immutable/1.5.0": {
-        "compile": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
-        },
         "compileOnly": true
       },
       "System.Collections.NonGeneric/4.3.0": {
@@ -2697,9 +2691,6 @@
         "compileOnly": true
       },
       "System.Diagnostics.DiagnosticSource/4.5.0": {
-        "compile": {
-          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
-        },
         "compileOnly": true
       },
       "System.Diagnostics.FileVersionInfo/4.3.0": {
@@ -3047,9 +3038,6 @@
         "compileOnly": true
       },
       "System.Reflection.Metadata/1.6.0": {
-        "compile": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
-        },
         "compileOnly": true
       },
       "System.Reflection.Primitives/4.3.0": {
@@ -3657,7 +3645,7 @@
     "System.Diagnostics.Process/4.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ruUkF5xyfuWVEXfG458/4wy/Jvq1ptOjM1t+JgHYQdJf3ZBPokpoXffNP5e3Bn8j8CQqiHk8ixI0ZccjsgQPCw==",
+      "sha512": "sha512-mpVZ5bnlSs3tTeJ6jYyDJEIa6tavhAd88lxq1zbYhkkCu0Pno2+gHXcvZcoygq2d8JxW3gojXqNJMTAshduqZA==",
       "path": "system.diagnostics.process/4.1.0",
       "hashPath": "system.diagnostics.process.4.1.0.nupkg.sha512"
     },
@@ -4378,7 +4366,7 @@
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iWcLR7GuZExynJe+xORPyfbu4E6ajLZLz1SiHeNLuLkzVYEIHe7fjpakM5aCNBOIdVgw9T+WXTgCwSXwpr0QCQ==",
+      "sha512": "sha512-HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "hashPath": "microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512"
     },
@@ -5204,7 +5192,7 @@
     "System.Linq.Queryable/4.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wlyZPt+5H3qQdBYKmE34DY60s+7//7rusF3YqBMiwIXpjpZ/68RMAo39AHOWBjeJTrf92V9zNgMX15Ga7dZLlA==",
+      "sha512": "sha512-Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "path": "system.linq.queryable/4.0.1",
       "hashPath": "system.linq.queryable.4.0.1.nupkg.sha512"
     },

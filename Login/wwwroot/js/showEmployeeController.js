@@ -1,6 +1,7 @@
 var app = angular.module("myapp", []); 
-
-
+app.header('Access-Control-Allow-Origin', "*");
+app.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE');
+app.header('Access-Control-Allow-Headers', "Content-Type");
 app.controller("ShowEmployeeController", function($scope , $http){
 
     $scope.employees = typeof employees != "undefined" ? employees ? employees : null : null;
@@ -12,9 +13,7 @@ $scope.init= function(){
         
     }
 
-    $http.get("https://localhost:5001/api/generateuser",{
-        withCredentials: true
-    }).then(function(response){
+    $http.get("https://localhost:5001/api/generateuser").then(function(response){
         
         if(response.data){
             debugger;
