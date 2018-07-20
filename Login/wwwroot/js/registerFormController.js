@@ -1,6 +1,8 @@
 var app = angular.module("myapp", []); 
 app.controller("RegisterFormController", function($scope , $http){
-    $scope.registerForm = null;
+    
+    $scope.registerForm = typeof registerForm != "undefined" ? registerForm ? registerForm : null : null;
+    
 $scope.sendData= function(e){
     debugger;
     alert(e);

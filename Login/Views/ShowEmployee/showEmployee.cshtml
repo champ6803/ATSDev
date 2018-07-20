@@ -1,0 +1,19 @@
+
+<div ng-controller="ShowEmployeeController">
+    <div class="container">
+        <h3>ข้อมูล outsource</h3>
+   <div ng-init="init()">
+       <div ng-repeat="em in employees">
+           <div>
+               <label>Email : {{em.email}}</label>
+               <label>password : {{em.pwd}}</label>
+               <label>type : {{em.typeAccount}}</label>
+           </div>
+       </div>
+   </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/showEmployeeController.js"></script>
+}

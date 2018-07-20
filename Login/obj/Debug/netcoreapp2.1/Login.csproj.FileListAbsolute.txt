@@ -32,3 +32,6 @@ E:\Workspace\ATSDEV\atsdev\login\obj\Debug\netcoreapp2.1\Login.pdb
 E:\Workspace\ATSDEV\atsdev\login\obj\Debug\netcoreapp2.1\Login.csproj.CopyComplete
 E:\Workspace\ATSDEV\atsdev\login\obj\Debug\netcoreapp2.1\Razor\Views\RegisterForm\registerForm.g.cshtml.cs
 E:\Workspace\ATSDEV\atsdev\login\obj\Debug\netcoreapp2.1\Razor\Views\LoginForm\loginForm.g.cshtml.cs
+E:\Workspace\ATSDev\atsdev\login\obj\Debug\netcoreapp2.1\Razor\Views\EmployeeForm\employeeForm.g.cshtml.cs
+E:\Workspace\ATSDev\atsdev\login\obj\Debug\netcoreapp2.1\Razor\Views\TestForm\testForm.g.cshtml.cs
+E:\Workspace\ATSDev\atsdev\login\obj\Debug\netcoreapp2.1\Razor\Views\ShowEmployee\showEmployee.g.cshtml.cs

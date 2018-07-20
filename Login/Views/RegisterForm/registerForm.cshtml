@@ -11,9 +11,19 @@
         <input type="text" class="form-control" ng-model="registerForm.fullname" placeholder="Fullname">
     </div>
     <div class="form-group">
-        <label for="">Skill</label>
-        <input type="text" class="form-control" ng-model="registerForm.skill" placeholder="Skill">
-    </div>     
+        <label for="">Experience</label>
+        <input type="text" class="form-control" ng-model="registerForm.Experience" placeholder="Experience">
+    </div>   
+    <div class="form-group">
+        <label for="">Age</label>
+        <input type="text" class="form-control" ng-model="registerForm.Age" placeholder="Age">
+    </div>
+    <div class="form-group">
+        <label >Skill</label>
+       <select class="form-control" ng-model="employeeform.skill" id="">
+            <option></option>
+       </select>
+    </div>  
     <button  class="btn btn-default" ng-click="sendData(registerForm)">ส่งข้อมูล</button>
     </div>
 </div>

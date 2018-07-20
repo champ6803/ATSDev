@@ -1,9 +1,13 @@
 var app = angular.module("myapp", []); 
-app.controller("LoginFormController", function($scope , $http){
+app.controller("EmployeeFormController", function($scope , $http){
 
-    $scope.loginForm = typeof loginForm != "undefined" ? loginForm ? loginForm : null : null;
+    $scope.employeeform ={
+        location:'',
+        salary:'',
+        position:''
+    };
 
-$scope.login= function(e){
+$scope.submit= function(e){
     debugger;
     alert(e);
     // var req ={
