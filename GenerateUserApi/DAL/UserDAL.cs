@@ -6,13 +6,13 @@ using MongoDB.Driver;
 
 namespace GenerateUserApi.Models
 {
-    public class DataAccess
+    public class UserDAL
     {
         private MongoClient client;
         private IMongoDatabase db;
         private IMongoCollection<User> col;
 
-        public DataAccess()
+        public UserDAL()
         {
             this.client = new MongoClient("mongodb://127.0.0.1:27017");
             this.db = client.GetDatabase("ats");
@@ -25,10 +25,9 @@ namespace GenerateUserApi.Models
             return list;
         }
 
-        public async Task<User> Get(string email)
+        public async Task InserUser(User user)
         {
-            var us = await this.col.Find(x => x.email == email).FirstAsync();
-            return us;
+            await this.col.InsertOneAsync(user);
         }
     }
 }

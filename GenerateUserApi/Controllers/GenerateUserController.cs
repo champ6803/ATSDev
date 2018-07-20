@@ -15,27 +15,27 @@ namespace GenerateUserApi.Controllers
         protected GenerateUserHelper genHelp = new GenerateUserHelper();
         // GET api/generateuser
         [HttpGet]
-        public async Task<IEnumerable<User>> Get()
+        public async Task<IEnumerable<Profile>> Get()
         {
-            DataAccess cs = new DataAccess();
-            return await cs.All();
+            var all = genHelp.GetAll();
+            return await all;
         }
 
         // GET api/GenerateUser/admin@gmail.com
         [HttpGet("{email}")]
-        public async Task<User> GetUser(string email)
+        public async Task<Profile> GetUser(string email)
         {
-            DataAccess cs = new DataAccess();
-            return await cs.Get(email);
+            var profile = genHelp.GenerateUser(email);            
+            return await profile;
         }
 
         /*Generate for login application */
         // GET api/GenerateUser/jida@gmail.com
         [HttpGet("{user}")]
-        public User Get(string user)
+        public async Task<Profile> Get(string user)
         {
             var genUser = genHelp.GenerateUser(user);
-            return genUser;
+            return await genUser;
         }
 
         // POST api/values
