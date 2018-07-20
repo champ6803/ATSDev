@@ -1,8 +1,8 @@
 using System;
 
-namespace Login.UserModel
+namespace Login.Models
 {
-    public class User
+    public class UserModel
     {
         public string email { get; set;}
         public string name {get; set;}

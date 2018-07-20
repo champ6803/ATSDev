@@ -9,13 +9,12 @@ $scope.init= function(){
     debugger;
 var req ={ 
         method:"GET",
-        url:"https://localhost:5001/api/values",
+        url:"https://localhost:5001/api/generateuser",
         headers : {
             'Content-Type' : 'application/json'
         }
     }
     $http(req).then(function(response){
-        
         if(response.data){
             debugger;
             alert('ดึงรายชื่อสำเร็จ');

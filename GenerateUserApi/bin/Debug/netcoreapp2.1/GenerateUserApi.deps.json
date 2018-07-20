@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "5d98e233aabab0c1f4cacc8e9f4592193a183373"
+    "signature": "d70f05fd590cb1725c16307ac5d075fe747c504e"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.1": {
       "GenerateUserApi/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNet.WebApi.Cors": "5.2.6",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
           "MongoDB.Driver": "2.7.0"
@@ -62,6 +63,46 @@
         },
         "compile": {
           "lib/netstandard1.3/DnsClient.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Cors/5.2.6": {
+        "runtime": {
+          "lib/net45/System.Web.Cors.dll": {
+            "assemblyVersion": "5.2.6.0",
+            "fileVersion": "5.2.60510.0"
+          }
+        },
+        "compile": {
+          "lib/net45/System.Web.Cors.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.6": {
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.6"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {
+            "assemblyVersion": "5.2.6.0",
+            "fileVersion": "5.2.60510.0"
+          }
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Cors/5.2.6": {
+        "dependencies": {
+          "Microsoft.AspNet.Cors": "5.2.6",
+          "Microsoft.AspNet.WebApi.Core": "5.2.6"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.Cors.dll": {
+            "assemblyVersion": "5.2.6.0",
+            "fileVersion": "5.2.60510.0"
+          }
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.Cors.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.1.0": {
@@ -3528,6 +3569,27 @@
       "sha512": "sha512-f3k5ufhUSL658fy/ac1mReqRIr0jGMyOJFvBqJ+7cASq01NIysYbrrRDjboYKAGrd0Y2mc1A749uQvT8vAA91A==",
       "path": "dnsclient/1.0.7",
       "hashPath": "dnsclient.1.0.7.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Cors/5.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9aZAbHBY8StAwehBYWPs6ewrc4hdyaj6O0cxgPme5vU9eYNz9kAfbX5z6I1LFsnpWzthpsikcJTE1OyAl/JzuQ==",
+      "path": "microsoft.aspnet.cors/5.2.6",
+      "hashPath": "microsoft.aspnet.cors.5.2.6.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QMFixs/MvKZXjfUbV0gXxF85LKi+keu/zJKv13upg/JlcxJ+wdLSYzyHO/sgPPUuFVstgndK6Zt3VduWeqFmHQ==",
+      "path": "microsoft.aspnet.webapi.core/5.2.6",
+      "hashPath": "microsoft.aspnet.webapi.core.5.2.6.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebApi.Cors/5.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZQU40+mCROg6cRE3tydEIuZBC7fh8ZueJmiz3HpaRoTriZVond1rLCcDu/PJM7FQJa0k8ut7iRUTgB1kU5yWFw==",
+      "path": "microsoft.aspnet.webapi.cors/5.2.6",
+      "hashPath": "microsoft.aspnet.webapi.cors.5.2.6.nupkg.sha512"
     },
     "Microsoft.NETCore.App/2.1.0": {
       "type": "package",
