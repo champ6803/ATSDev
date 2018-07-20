@@ -14,5 +14,13 @@ namespace Login.Controllers
         {
             return View();
         }
+         public ActionResult Index(string e) 
+        {
+            
+            // WebClient client = new WebClient();
+            // string url = dashboardUrlBase + "GetUserRecord?userName=" + adSAMName;
+            // User result = JsonConvert.DeserializeObject<User>(client.DownloadString(url));
+            return View();
+        }
     }
 }
