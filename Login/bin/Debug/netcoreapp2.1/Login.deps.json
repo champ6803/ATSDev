@@ -25,7 +25,8 @@
       "Login/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
-          "Microsoft.NETCore.App": "2.1.0"
+          "Microsoft.NETCore.App": "2.1.0",
+          "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
           "Login.dll": {}
@@ -2259,6 +2260,9 @@
         "compileOnly": true
       },
       "System.Collections.Immutable/1.5.0": {
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+        },
         "compileOnly": true
       },
       "System.Collections.NonGeneric/4.3.0": {
@@ -2324,6 +2328,9 @@
         "compileOnly": true
       },
       "System.Diagnostics.DiagnosticSource/4.5.0": {
+        "compile": {
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
+        },
         "compileOnly": true
       },
       "System.Diagnostics.FileVersionInfo/4.3.0": {
@@ -2671,6 +2678,9 @@
         "compileOnly": true
       },
       "System.Reflection.Metadata/1.6.0": {
+        "compile": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+        },
         "compileOnly": true
       },
       "System.Reflection.Primitives/4.3.0": {

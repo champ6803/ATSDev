@@ -7,14 +7,14 @@ app.controller("ShowEmployeeController", function($scope , $http){
 
 $scope.init= function(){
     debugger;
-var req ={ 
-        method:"GET",
-        url:"https://localhost:5001/api/values",
-        headers : {
-            'Content-Type' : 'application/json'
-        }
+    var req = {
+        //withCredentials: true,
+        
     }
-    $http(req).then(function(response){
+
+    $http.get("https://localhost:5001/api/generateuser",{
+        withCredentials: true
+    }).then(function(response){
         
         if(response.data){
             debugger;

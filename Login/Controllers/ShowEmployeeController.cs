@@ -1,46 +1,49 @@
 using System;
+using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Login.Models;
-using Login.UserModel;
-using System.Net.Http;
-using System.Net.HttpCilent;
 using Newtonsoft.Json;
-
 
 namespace Login.Controllers
 {
     public class ShowEmployeeController : Controller
     {
-        HttpCilent cilent = new HttpCilent();
+        static HttpClient client = new HttpClient();
+
         public IActionResult ShowEmployee()
         {
+            
             return View();
         }
-         public UserRepo() 
+
+        public string getTest(){
+            return "test";
+        }
+       
+       public static async Task RunAsync()
         {
-            cilent.BaseAddress = new Url("https://localhost:5001/");
-            cilent.DefaultRequestHeaders.Accept.Add(
-                new MediaTypeWithQualityHeaderVaalue("application/json")
-            );
+            client.BaseAddress = new Uri("http://localhost:5001/");
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Accept.Add(
+                new MediaTypeWithQualityHeaderValue("application/json"));
+
         }
 
-        public async Task<List<UserModel>> GetAsync(CancellationToken cancellationToken)
+        public static async Task<UserModel> GetUserAsync()
         {
-            await Task.Delay(3000);
-            cancellationToken.ThrowIfCancellationToken();
-
-            HttpResponseMessage response = await cilent.GetAsync("api/generateUser", cancellationToken);
-            if(response.IsSuccessStatusCode)
+            UserModel user = null;
+            HttpResponseMessage response = await client.GetAsync("api/generateuser");
+            if (response.IsSuccessStatusCode)
             {
-                var result =  await response.Content.ReadAsStringAsync();
-                return JsonConvert.DeserializeObject <List<UserModel>>(result);
+                user = await response.Content.ReadAsAsync<UserModel>();
+                
             }
-                return new <List<UserModel>>();
-            return null;
+            return user;
         }
     }
 }

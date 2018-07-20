@@ -3,12 +3,19 @@
     <div class="container">
         <h3>ข้อมูล outsource</h3>
    <div ng-init="init()">
-       <div ng-repeat="em in employees">
-           <div>
-               <label>Email : {{em.email}}</label>
-               <label>name : {{em.name}}</label>
-           </div>
-       </div>
+       <table>
+         <tr>
+            <th>Email</th>
+            <th>name</th> 
+            <th>Status</th>
+        </tr>
+        <tr ng-repeat="em in employees">
+            <td>{{em.email}}</td>
+            <td>{{em.name}}</td>
+            <td>{{em.typeAccount}}</td>
+        </tr>
+       </table>
+       
    </div>
     </div>
 </div>
