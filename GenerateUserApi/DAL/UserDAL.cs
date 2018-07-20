@@ -14,7 +14,7 @@ namespace GenerateUserApi.Models
 
         public UserDAL()
         {
-            this.client = new MongoClient("mongodb://127.0.0.1:27017");
+            this.client = new MongoClient("mongodb://champ6803:www12345@clusteratsdev-shard-00-00-lxs0q.mongodb.net:27017,clusteratsdev-shard-00-01-lxs0q.mongodb.net:27017,clusteratsdev-shard-00-02-lxs0q.mongodb.net:27017/admin?ssl=true");
             this.db = client.GetDatabase("ats");
             this.col = this.db.GetCollection<User>("user");
         }
@@ -25,7 +25,7 @@ namespace GenerateUserApi.Models
             return list;
         }
 
-        public async Task InserUser(User user)
+        public async Task InsertUser(User user)
         {
             await this.col.InsertOneAsync(user);
         }
