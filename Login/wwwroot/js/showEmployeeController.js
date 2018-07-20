@@ -1,11 +1,6 @@
-var app = angular.module("myapp", []); 
-app.header('Access-Control-Allow-Origin', "*");
-app.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE');
-app.header('Access-Control-Allow-Headers', "Content-Type");
+var app = angular.module("myapp", []);
 app.controller("ShowEmployeeController", function($scope , $http){
-
-    $scope.employees = typeof employees != "undefined" ? employees ? employees : null : null;
-
+$scope.employees = typeof employees != "undefined" ? employees ? employees : null : null;
 $scope.init= function(){
     debugger;
     var req = {
