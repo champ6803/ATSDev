@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using GenerateUserApi.Helper;
 using GenerateUserApi.Models;
+using Microsoft.AspNetCore.Cors;
 
 namespace GenerateUserApi.Controllers
 {
@@ -15,6 +16,7 @@ namespace GenerateUserApi.Controllers
         protected GenerateUserHelper genHelp = new GenerateUserHelper();
         // GET api/generateuser
         [HttpGet]
+        [EnableCors("AllowSpecificOrigin")]
         public async Task<IEnumerable<Profile>> Get()
         {
             var all = genHelp.GetAll();
