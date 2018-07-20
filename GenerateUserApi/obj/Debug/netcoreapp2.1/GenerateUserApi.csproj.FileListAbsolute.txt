@@ -29,3 +29,17 @@ D:\G-ABLE\Project\ATSDev\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi
 D:\G-ABLE\Project\ATSDev\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.dll
 D:\G-ABLE\Project\ATSDev\GenerateUserApi\obj\Debug\netcoreapp2.1\GenerateUserApi.pdb
 >>>>>>> ff20ecacfab0e6ce10d7f25541fa4ae1f215cfe1
+C:\Project\ATSDev\generateuserapi\bin\Debug\netcoreapp2.1\GenerateUserApi.deps.json
+C:\Project\ATSDev\generateuserapi\bin\Debug\netcoreapp2.1\GenerateUserApi.runtimeconfig.json
+C:\Project\ATSDev\generateuserapi\bin\Debug\netcoreapp2.1\GenerateUserApi.runtimeconfig.dev.json
+C:\Project\ATSDev\generateuserapi\bin\Debug\netcoreapp2.1\GenerateUserApi.dll
+C:\Project\ATSDev\generateuserapi\bin\Debug\netcoreapp2.1\GenerateUserApi.pdb
+C:\Project\ATSDev\generateuserapi\obj\Debug\netcoreapp2.1\GenerateUserApi.csprojAssemblyReference.cache
+C:\Project\ATSDev\generateuserapi\obj\Debug\netcoreapp2.1\GenerateUserApi.csproj.CoreCompileInputs.cache
+C:\Project\ATSDev\generateuserapi\obj\Debug\netcoreapp2.1\GenerateUserApi.RazorAssemblyInfo.cache
+C:\Project\ATSDev\generateuserapi\obj\Debug\netcoreapp2.1\GenerateUserApi.RazorAssemblyInfo.cs
+C:\Project\ATSDev\generateuserapi\obj\Debug\netcoreapp2.1\GenerateUserApi.AssemblyInfoInputs.cache
+C:\Project\ATSDev\generateuserapi\obj\Debug\netcoreapp2.1\GenerateUserApi.AssemblyInfo.cs
+C:\Project\ATSDev\generateuserapi\obj\Debug\netcoreapp2.1\GenerateUserApi.RazorTargetAssemblyInfo.cache
+C:\Project\ATSDev\generateuserapi\obj\Debug\netcoreapp2.1\GenerateUserApi.dll
+C:\Project\ATSDev\generateuserapi\obj\Debug\netcoreapp2.1\GenerateUserApi.pdb
