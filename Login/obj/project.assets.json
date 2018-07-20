@@ -11500,23 +11500,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tommystin\\.nuget\\packages\\": {},
+    "C:\\Users\\champ\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Workspace\\ATSDev\\ATSDev\\Login\\Login.csproj",
+      "projectUniqueName": "C:\\Project\\ATSDev\\Login\\Login.csproj",
       "projectName": "Login",
-      "projectPath": "E:\\Workspace\\ATSDev\\ATSDev\\Login\\Login.csproj",
-      "packagesPath": "C:\\Users\\Tommystin\\.nuget\\packages\\",
-      "outputPath": "E:\\Workspace\\ATSDev\\ATSDev\\Login\\obj\\",
+      "projectPath": "C:\\Project\\ATSDev\\Login\\Login.csproj",
+      "packagesPath": "C:\\Users\\champ\\.nuget\\packages\\",
+      "outputPath": "C:\\Project\\ATSDev\\Login\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Tommystin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\champ\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
