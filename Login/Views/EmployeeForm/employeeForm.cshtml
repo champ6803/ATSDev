@@ -1,0 +1,27 @@
+
+<div ng-controller="EmployeeFormController">
+    <div class="container">
+        <h3>รายละเอียดเพิ่มเติม</h3>
+    <div class="form-group">
+        <label >Location</label>
+       <select class="form-control" ng-model="employeeform.location" id="">
+            <option ></option>
+       </select>
+    </div>
+    <div class="form-group">
+        <label for="">Salary</label>
+        <input type="text" class="form-control" ng-model="employeeform.salary" placeholder="Salary">
+    </div>  
+    <div class="form-group">
+        <label for="">Position</label>
+        <select class="form-control" ng-model="employeeform.position" id="">
+            <option ></option>
+       </select>
+    </div>  
+    <button  class="btn btn-default" ng-click="submit(employeeform)">ส่งข้อมูล</button>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/employeeFormController.js"></script>
+}

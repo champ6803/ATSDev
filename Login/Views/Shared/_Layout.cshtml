@@ -1,10 +1,10 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="myapp">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Login</title>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
@@ -33,6 +33,11 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-area="" asp-controller="RegisterForm" asp-action="RegisterForm">Register</a></li>
+                    <li><a asp-area="" asp-controller="LoginForm" asp-action="LoginForm">Login</a></li>
+                    <li><a asp-area="" asp-controller="EmployeeForm" asp-action="EmployeeForm">EmployeeForm</a></li>
+                    <li><a asp-area="" asp-controller="TestForm" asp-action="TestForm">TestForm</a></li>
+                    <li><a asp-area="" asp-controller="ShowEmployee" asp-action="ShowEmployee">ShowEmployee</a></li>
                 </ul>
             </div>
         </div>
@@ -67,6 +72,7 @@
                 integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
+         <script src="~/js/angular.min.js" asp-append-version="true"></script>
     </environment>
 
     @RenderSection("Scripts", required: false)
