@@ -17,7 +17,7 @@ namespace GenerateUserApi.Controllers
         // GET api/generateuser
         [HttpGet]
         [EnableCors("AllowSpecificOrigin")]
-        public async Task<IEnumerable<Profile>> Get()
+        public async Task<IEnumerable<Profile>> GetProfileAll()
         {
             var all = genHelp.GetAll();
             return await all;
@@ -25,20 +25,26 @@ namespace GenerateUserApi.Controllers
 
         // GET api/GenerateUser/admin@gmail.com
         [HttpGet("{email}")]
-        public async Task<Profile> GetUser(string email)
+        public async Task<User> GenerateUser(string email)
         {
-            var profile = genHelp.GenerateUser(email);            
+            var profile = await GenUserByProfile(email);
+            var user = await GetUser(email);
+
+            return user;
+        }
+
+        public async Task<Profile> GenUserByProfile(string email)
+        {
+            var profile = genHelp.GenerateUser(email);
             return await profile;
         }
 
-        /*Generate for login application */
-        // GET api/GenerateUser/jida@gmail.com
-        [HttpGet("{user}")]
-        public async Task<Profile> Get(string user)
+        public async Task<User> GetUser(string email)
         {
-            var genUser = genHelp.GenerateUser(user);
-            return await genUser;
+            var user = genHelp.GetUser(email);
+            return await user;
         }
+
 
         // POST api/values
         [HttpPost]

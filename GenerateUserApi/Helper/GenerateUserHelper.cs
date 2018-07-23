@@ -18,5 +18,9 @@ namespace GenerateUserApi.Helper
         {
             return await new GenerateUserLibrary().GenerateUserPass(email);
         }
+
+        public async Task<User> GetUser(string email) {
+            return await new GenerateUserLibrary().GetUser(email);
+        }
     }
 }

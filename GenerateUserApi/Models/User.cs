@@ -11,6 +11,6 @@ namespace GenerateUserApi.Models
         public string email { get; set; }
         public string user { get; set; }
         public string pwd { get; set; }
-        public string typeAccount { get; set; }
+        public string type_account { get; set; }
     }
 }
