@@ -1,20 +1,15 @@
-var app = angular.module("myapp", []); 
-
-
+var app = angular.module("myapp", []);
 app.controller("ShowEmployeeController", function($scope , $http){
-
-    $scope.employees = typeof employees != "undefined" ? employees ? employees : null : null;
-
+$scope.employees = typeof employees != "undefined" ? employees ? employees : null : null;
 $scope.init= function(){
     debugger;
-var req ={ 
-        method:"GET",
-        url:"https://localhost:5001/api/generateuser",
-        headers : {
-            'Content-Type' : 'application/json'
-        }
+    var req = {
+        //withCredentials: true,
+        
     }
-    $http(req).then(function(response){
+
+    $http.get("https://localhost:5001/api/generateuser").then(function(response){
+        
         if(response.data){
             debugger;
             alert('ดึงรายชื่อสำเร็จ');
