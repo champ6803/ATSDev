@@ -8,7 +8,7 @@ $scope.init= function(){
         
     }
 
-    $http.get("https://localhost:5001/api/generateuser").then(function(response){
+    $http.get("http://localhost:5000/api/generateuser").then(function(response){
         
         if(response.data){
             debugger;
