@@ -75,7 +75,11 @@ using Login.Models;
             ");
             EndContext();
             BeginContext(484, 71, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "1b30bb7e0f7e437a94670b97e94cc566", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "dcaeb314d9c04dacafb0f46ca7cf81be", async() => {
+>>>>>>> 09c8e0ccb8f72c5d4f9ce5cb4677a021a4d88e2b
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -106,7 +110,11 @@ using Login.Models;
             ");
             EndContext();
             BeginContext(987, 77, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4681d20d499f4476a0d1f6c0a1ed5e9d", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "abe655d377b646278392e1424532f9f3", async() => {
+>>>>>>> 09c8e0ccb8f72c5d4f9ce5cb4677a021a4d88e2b
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -137,7 +145,11 @@ using Login.Models;
             ");
             EndContext();
             BeginContext(1520, 79, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a6c9a9eb612646a8aa03b79969563239", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4d5a2563f0ce43eeaa4826b06cd7bce0", async() => {
+>>>>>>> 09c8e0ccb8f72c5d4f9ce5cb4677a021a4d88e2b
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

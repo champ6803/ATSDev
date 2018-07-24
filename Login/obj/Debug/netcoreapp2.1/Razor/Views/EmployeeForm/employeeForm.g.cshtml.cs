@@ -62,7 +62,11 @@ using Login.Models;
             ");
             EndContext();
             BeginContext(268, 18, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4b8598ed55a5478480aceb683c7e396e", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "be7229356a6c45ce898ef469302d2312", async() => {
+>>>>>>> 09c8e0ccb8f72c5d4f9ce5cb4677a021a4d88e2b
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper>();
@@ -89,7 +93,11 @@ using Login.Models;
             ");
             EndContext();
             BeginContext(662, 18, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4f495c58ab5c4810a54a2082b5ee7e46", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "15ffa8c7595f422fb4d9f13af24c578c", async() => {
+>>>>>>> 09c8e0ccb8f72c5d4f9ce5cb4677a021a4d88e2b
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper>();
@@ -110,7 +118,11 @@ using Login.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(849, 54, false);
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "62892d3029cc460da948f45143693175", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7e4ec9ad5f45479d8b2d5729a0f1dd4b", async() => {
+>>>>>>> 09c8e0ccb8f72c5d4f9ce5cb4677a021a4d88e2b
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

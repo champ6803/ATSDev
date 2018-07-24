@@ -75,7 +75,11 @@ using Login.Models;
                 WriteLiteral("\r\n   ");
                 EndContext();
                 BeginContext(604, 51, false);
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9c38fa4623ee41bcbef25a40409365b5", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "67d4bb3ec0164d07a297aedefd79ffee", async() => {
+>>>>>>> 09c8e0ccb8f72c5d4f9ce5cb4677a021a4d88e2b
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

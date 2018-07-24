@@ -27,8 +27,9 @@ namespace GenerateUserApi.Models
 
         public async Task<Profile> GetProfile(string email)
         {
-            var user = await this.col.Find(x => x.email.Equals(email)).FirstAsync();
-            return user;
+            var profile = await this.col.Find(x => x.email.Equals(email)).FirstAsync();
+            
+            return profile;
         }
 
     }

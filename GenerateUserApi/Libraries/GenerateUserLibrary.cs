@@ -16,6 +16,12 @@ namespace GenerateUserApi.Libraries
             var all = await prodDal.All();
             return all;
         }
+
+        public async Task<User> GetUser(string email) {
+            var user = await userDal.GetUser(email);
+            return user;
+        }
+
         /*Generate for login application */
         private static Random random = new Random();
 
@@ -72,5 +78,7 @@ namespace GenerateUserApi.Libraries
             }
             return p;
         }
+
+
     }
 }
