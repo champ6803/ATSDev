@@ -26,11 +26,7 @@ namespace GenerateUserApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors();
-<<<<<<< HEAD
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-=======
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);          
->>>>>>> 09c8e0ccb8f72c5d4f9ce5cb4677a021a4d88e2b
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,10 +43,7 @@ namespace GenerateUserApi
             app.UseCors(
                 options => options.WithOrigins("https://localhost:44349").AllowAnyMethod()
             );
-<<<<<<< HEAD
             
-=======
->>>>>>> 09c8e0ccb8f72c5d4f9ce5cb4677a021a4d88e2b
 
             //app.UseHttpsRedirection();
             app.UseMvc();

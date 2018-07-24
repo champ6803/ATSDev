@@ -13,10 +13,6 @@ namespace GenerateUserApi.Models
         public string type_account { get; set; }
         public int experience { get; set; }
         public int age { get; set; }
-<<<<<<< HEAD
         public string skill { get; set; }
-=======
-        public string skill {get;set;}
->>>>>>> 09c8e0ccb8f72c5d4f9ce5cb4677a021a4d88e2b
     }
 }
