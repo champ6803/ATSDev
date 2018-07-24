@@ -144,4 +144,11 @@ D:\G-ABLE\Project\ATSDev\Login\obj\Debug\netcoreapp2.1\Login.Views.pdb
 D:\G-ABLE\Project\ATSDev\Login\obj\Debug\netcoreapp2.1\Login.dll
 D:\G-ABLE\Project\ATSDev\Login\obj\Debug\netcoreapp2.1\Login.pdb
 D:\G-ABLE\Project\ATSDev\Login\obj\Debug\netcoreapp2.1\Login.csproj.CopyComplete
+D:\Workspace\ATSDev\Login\obj\Debug\netcoreapp2.1\Razor\Views\EmployeeForm\employeeForm.g.cshtml.cs
+D:\Workspace\ATSDev\Login\obj\Debug\netcoreapp2.1\Razor\Views\LoginForm\loginForm.g.cshtml.cs
+D:\Workspace\ATSDev\Login\obj\Debug\netcoreapp2.1\Razor\Views\RegisterForm\registerForm.g.cshtml.cs
+D:\Workspace\ATSDev\Login\obj\Debug\netcoreapp2.1\Razor\Views\ShowEmployee\showEmployee.g.cshtml.cs
+D:\Workspace\ATSDev\Login\obj\Debug\netcoreapp2.1\Razor\Views\TestForm\testForm.g.cshtml.cs
 C:\Project\ATSDev\login\obj\Debug\netcoreapp2.1\Razor\Views\TestGenerateUser\TestGenerateUser.g.cshtml.cs
+>>>>>>> 09c8e0ccb8f72c5d4f9ce5cb4677a021a4d88e2b
+D:\Workspace\ATSDev\Login\obj\Debug\netcoreapp2.1\Razor\Views\TestGenerateUser\TestGenerateUser.g.cshtml.cs

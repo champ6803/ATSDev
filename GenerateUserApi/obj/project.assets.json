@@ -6025,7 +6025,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
+      "sha512": "3lmJj8caP/42kxUZsa+KX9FvLM6HGWPSeANDfCuJIVaPm8XUxUva7J/2SSZBC/n24KAqzTRYKt+J5TW63WO/WA==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "files": [
@@ -7648,7 +7648,7 @@
       ]
     },
     "runtime.native.System.Security.Cryptography/4.0.0": {
-      "sha512": "2CQK0jmO6Eu7ZeMgD+LOFbNJSXHFVQbCJJkEyEwowh1SCgYnrn9W9RykMfpeeVGw7h4IBvYikzpGUlmZTUafJw==",
+      "sha512": "ZbZxZpzg95nz7IrJB+uDXJeTIO3mTsT4RKhyUVnfM2+nS+vvxYAH5yFQ84yGoUReaXmf8Vf+vWb+C4XgMwXapQ==",
       "type": "package",
       "path": "runtime.native.system.security.cryptography/4.0.0",
       "files": [
@@ -9572,7 +9572,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+      "sha512": "+ccQ9Zx0Vu6tQ91Dvf/Hm8w8dBIxhJQsJqgsVCo/3Y3aAUO6D3vLf08KUpwo5LWP5yu3ywOKwZcE2jn15qXNWg==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -12655,28 +12655,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\champ\\.nuget\\packages\\": {},
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Project\\ATSDev\\GenerateUserApi\\GenerateUserApi.csproj",
       "projectName": "GenerateUserApi",
       "projectPath": "C:\\Project\\ATSDev\\GenerateUserApi\\GenerateUserApi.csproj",
       "packagesPath": "C:\\Users\\champ\\.nuget\\packages\\",
       "outputPath": "C:\\Project\\ATSDev\\GenerateUserApi\\obj\\",
+=======
+      "projectUniqueName": "D:\\Workspace\\ATSDev\\generateuserapi\\GenerateUserApi.csproj",
+      "projectName": "GenerateUserApi",
+      "projectPath": "D:\\Workspace\\ATSDev\\generateuserapi\\GenerateUserApi.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Workspace\\ATSDev\\generateuserapi\\obj\\",
+>>>>>>> 54d390946d840162b4eddcae008664ade8df55fc
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\champ\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
