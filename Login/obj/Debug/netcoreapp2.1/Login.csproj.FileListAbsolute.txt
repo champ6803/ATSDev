@@ -144,3 +144,4 @@ D:\G-ABLE\Project\ATSDev\Login\obj\Debug\netcoreapp2.1\Login.Views.pdb
 D:\G-ABLE\Project\ATSDev\Login\obj\Debug\netcoreapp2.1\Login.dll
 D:\G-ABLE\Project\ATSDev\Login\obj\Debug\netcoreapp2.1\Login.pdb
 D:\G-ABLE\Project\ATSDev\Login\obj\Debug\netcoreapp2.1\Login.csproj.CopyComplete
+C:\Project\ATSDev\login\obj\Debug\netcoreapp2.1\Razor\Views\TestGenerateUser\TestGenerateUser.g.cshtml.cs

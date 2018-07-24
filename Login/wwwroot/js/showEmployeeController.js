@@ -3,12 +3,8 @@ app.controller("ShowEmployeeController", function($scope , $http){
 $scope.employees = typeof employees != "undefined" ? employees ? employees : null : null;
 $scope.init= function(){
     debugger;
-    var req = {
-        //withCredentials: true,
-        
-    }
-
-    $http.get("https://localhost:5001/api/generateuser").then(function(response){
+   
+    $http.get("https://localhost:5000/api/generateuser").then(function(response){
         
         if(response.data){
             debugger;

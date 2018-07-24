@@ -1,0 +1,16 @@
+
+<div ng-controller="TestGenerateUserController">
+    <div class="container">
+        <h3>ทดสอบ Generate Email</h3>
+    <div class="form-group">
+        <label >Email address</label>
+        <input type="text" class="form-control" ng-model="testEmailGen.email" id="" placeholder="Email">
+    </div>
+  
+    <button  class="btn btn-default" ng-click="sendData(testEmailGen)">ทดสอบ</button>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/TestGenerateUserController.js"></script>
+}
