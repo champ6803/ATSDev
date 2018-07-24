@@ -41,7 +41,7 @@ namespace GenerateUserApi
                 //app.UseHsts();
             }
             app.UseCors(
-                options => options.WithOrigins("https://localhost:44349").AllowAnyMethod()
+                options => options.WithOrigins("https://localhost:8000").AllowAnyMethod()
             );
 
             //app.UseHttpsRedirection();

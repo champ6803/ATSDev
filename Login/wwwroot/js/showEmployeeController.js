@@ -1,10 +1,13 @@
 var app = angular.module("myapp", []);
+app.config(['$httpProvider', function($httpProvider) {
+    $httpProvider.defaults.withCredentials = true;
+  }]);
 app.controller("ShowEmployeeController", function($scope , $http){
 $scope.employees = typeof employees != "undefined" ? employees ? employees : null : null;
 $scope.init= function(){
     debugger;
    
-    $http.get("https://localhost:5000/api/generateuser").then(function(response){
+    $http.get("http://localhost:5000/api/generateuser").then(function(response){
         
         if(response.data){
             debugger;

@@ -12661,11 +12661,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\ATSDev\\generateuserapi\\GenerateUserApi.csproj",
+      "projectUniqueName": "C:\\Project\\ATSDev\\GenerateUserApi\\GenerateUserApi.csproj",
       "projectName": "GenerateUserApi",
-      "projectPath": "C:\\Project\\ATSDev\\generateuserapi\\GenerateUserApi.csproj",
+      "projectPath": "C:\\Project\\ATSDev\\GenerateUserApi\\GenerateUserApi.csproj",
       "packagesPath": "C:\\Users\\champ\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\ATSDev\\generateuserapi\\obj\\",
+      "outputPath": "C:\\Project\\ATSDev\\GenerateUserApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
