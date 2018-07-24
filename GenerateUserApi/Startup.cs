@@ -25,8 +25,8 @@ namespace GenerateUserApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddCors();
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);          
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,14 +38,13 @@ namespace GenerateUserApi
             }
             else
             {
-                app.UseHsts();
+                //app.UseHsts();
             }
-            app.UseCors(builder =>
-    builder.WithOrigins("https://localhost:5001/api/generateuser")
-           .AllowAnyHeader()
-    );
+            app.UseCors(
+                options => options.WithOrigins("https://localhost:44349").AllowAnyMethod()
+            );
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseMvc();
         }
     }

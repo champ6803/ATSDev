@@ -29,5 +29,15 @@ namespace GenerateUserApi.Models
         {
             await this.col.InsertOneAsync(user);
         }
+
+        public async Task<User> GetUser(string email)
+        {
+            var user = await this.col.Find(x => x.email.Equals(email)).FirstAsync();
+            if(user != null)
+            {
+                return user;
+            }
+            return null;
+        }
     }
 }

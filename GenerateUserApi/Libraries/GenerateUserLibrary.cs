@@ -16,6 +16,12 @@ namespace GenerateUserApi.Libraries
             var all = await prodDal.All();
             return all;
         }
+
+        public async Task<User> GetUser(string email) {
+            var user = await userDal.GetUser(email);
+            return user;
+        }
+
         /*Generate for login application */
         private static Random random = new Random();
 
@@ -44,7 +50,7 @@ namespace GenerateUserApi.Libraries
             string Password;
             if (getProf != null)
             {
-                if (getProf.typeAccount == "Application")
+                if (getProf.type_account == "Application")
                 {
                     Username = email;
                     Password = GeneratePassword();
@@ -52,7 +58,7 @@ namespace GenerateUserApi.Libraries
                     u.user = Username;
                     u.pwd = Password;
                 }
-                else if (getProf.typeAccount == "Exam")
+                else if (getProf.type_account == "Exam")
                 {
                     Username = GenerateUserFOrExam();
                     Password = GeneratePassword();
@@ -62,15 +68,17 @@ namespace GenerateUserApi.Libraries
                 }
 
                 u.email = email;                
-                u.typeAccount = getProf.typeAccount;
+                u.type_account = getProf.type_account;
                 var user = userDal.InsertUser(u);
 
                 p.id = getProf.id;
                 p.name = getProf.name;
                 p.email = email;
-                p.typeAccount = getProf.typeAccount;
+                p.type_account = getProf.type_account;
             }
             return p;
         }
+
+
     }
 }
